@@ -1,10 +1,16 @@
 package de.bht.pr2.lab01;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Student {
+  List<String> data = new ArrayList<String>();
+  
 
   //-------------------------------------------
   // Attribute
   private String name = "";
+  
 
   // Matrikelnummer
   private int registrationNumber = 0;
