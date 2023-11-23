@@ -11,6 +11,9 @@ public class MainProgramm1 {
   public static void main(String[] args) {
     //----------------------------
     // Eingabe: nichts
+
+    //Array list ist ein Typ von list
+
     List<Integer> liste1 = new ArrayList<Integer>();
 
     //----------------------------
@@ -23,6 +26,7 @@ public class MainProgramm1 {
     //----------------------------
     // Mit einem Array
     Integer[] array = {1, 2, 3, 4, 5};
+    
     List<Integer> liste3 = Arrays.asList(array);
     // Achtung:
     // liste3 hat eine feste Groesse!
