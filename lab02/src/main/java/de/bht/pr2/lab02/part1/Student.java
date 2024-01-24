@@ -21,8 +21,7 @@ public class Student {
     try {
       registrationNumber = Integer.parseInt(parts[1]);
     } catch (NumberFormatException e) {
-      throw new RegistrationNumberException(
-          "Not a valid registration number in data: '" + data + "'.");
+      throw new RegistrationNumberException("Not a valid registration number in data: '" + data + "'.");
     }
 
     courseOfStudies = parts[2];

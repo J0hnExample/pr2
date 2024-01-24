@@ -24,6 +24,7 @@ public class QuickSort {
   }
 
   public static int[] sort(int[] array) {
+
     return sort(array, 0, array.length - 1);
   }
 

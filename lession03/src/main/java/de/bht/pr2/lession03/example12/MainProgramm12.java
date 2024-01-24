@@ -14,7 +14,6 @@ public class MainProgramm12 {
     // Eingabe: nichts
     Set<String> set1 = new HashSet<>();
     set1.add("a");
-    set1.add("a");
     set1.add("b");
     set1.add("c");
     set1.add("d");

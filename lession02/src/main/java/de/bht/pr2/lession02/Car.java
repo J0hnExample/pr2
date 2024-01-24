@@ -73,12 +73,4 @@ public class Car {
     result = 31 * result + color.hashCode();
     return result;
   }
-
-  public void fly(String targetPosition, int distanceInKm) {
-     System.out.println("Das Auto faehrt von " + position + " nach " + targetPosition
-        + " (" + distanceInKm + " Km entfernt).");
-    position = targetPosition;
-    kmStatus += distanceInKm;
-
-  }
 }
