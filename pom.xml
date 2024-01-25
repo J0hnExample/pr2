@@ -59,7 +59,7 @@
     <module>stocktextanalyser</module>
     <module>stocktextanalyserumlaut</module>
     <module>stockserialisetostringmessure</module>
-    <module>stockatributeparsen</module>
+    <module>stockmeasurmentparser</module>
   </modules>
 
 </project>
