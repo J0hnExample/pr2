@@ -55,7 +55,9 @@
     <module>stock07</module>
     <module>stock08</module>
     <module>stocklinkedlist</module>
+    <module>stockarraylist</module>
     <module>stocktextanalyser</module>
+    <module>stocktextanalyserumlaut</module>
     <module>stockserialisetostringmessure</module>
     <module>stockatributeparsen</module>
   </modules>
